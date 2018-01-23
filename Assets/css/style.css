@@ -1,0 +1,22 @@
+h1 {
+	color: #4aaaa5;
+	font-size: 25px;
+	padding: 10px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-bottom-color: #cccccc;
+	width: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+
+ul {
+float: right;
+padding: 35px;
+color: #cccccc
+}
