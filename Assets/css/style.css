@@ -11,7 +11,7 @@ p {
 
 h1 {
 	color: #4aaaa5;
-	font-size: 25px;
+	font-size: 40px;
 	padding: 10px;
 }
 
@@ -23,28 +23,39 @@ h2 {
 	
 }
 
-.wrapper {
-  margin-right: auto; /* 1 */
-  margin-left:  auto; /* 1 */
-
-  max-width: 960px; /* 2 */
-
-  padding-right: 10px; /* 3 */
-  padding-left:  10px; /* 3 */
+li {
+	display: inline;
 }
 
+.wrapper {
+	margin-right: auto; 
+	margin-left:  auto; 
+	float: right;
+	padding: 35px;
+	color: #190d5f;
+  max-width: 960px; 
+  padding-right: 10px; 
+	padding-left:  10px; 
+	}
+
 header {
-	background-color: #ffffff;
+	background-color: #808bbd;
 	border-bottom-style: solid;
 	border-width: 2px;
-	border-bottom-color: #cccccc;
+	border-bottom-color: #0d041f;
 	width: 100%;
+	height: auto;	
 	position:fixed;
 	top: 0;
 	left: 0;
 }
 
-.container{
+menu {
+	float: right;
+	margin-bottom: 35px;
+}
+
+.container {
 	width: 606px;
 	background-color: white;
 	padding: 20px;
@@ -53,20 +64,17 @@ header {
 	margin-bottom: 100px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #dddddd;
-}
-.navigation {
-float: right;
-padding: 35px;
-color: #cccccc
+	border-color: #3d1db1;
 }
 
 .myImage {
 	float: left;
 	width: 150px;
 	height: 150px;
+	border-width: 2px;
+	border-style: ridge;
 	padding: 10px;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 
 .connect {
